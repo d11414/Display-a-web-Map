@@ -9,3 +9,4 @@ mapElement.addEventListener("arcgisViewReadyChange", () => {
   console.log("✅ Mapa cargado correctamente con ID:", mapaID);
 });
 
+
