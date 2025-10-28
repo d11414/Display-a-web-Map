@@ -1,10 +1,11 @@
 const mapElement = document.getElementById("mapa-principal");
 
 // ID de un mapa público de prueba
-const mapaID = "237b9584339446a0b56317b5962a4971";
+const mapaID = "93781cd76c614bbf94760520930cf19c";
 
 mapElement.setAttribute("item-id", mapaID);
 
 mapElement.addEventListener("arcgisViewReadyChange", () => {
   console.log("✅ Mapa cargado correctamente con ID:", mapaID);
 });
+
